@@ -1,0 +1,886 @@
+
+
+body{
+
+margin: 0;
+background:#0c1027;
+
+}
+/*Header*/
+
+.body-header{
+	
+	width:100%;
+	margin:0px;
+	
+	
+	position:static;
+	}
+
+/*header nav-bar */
+
+.body-header .navbar
+{
+	width:100%;
+	display:flex;
+	flex-direction: row;
+	
+
+}
+
+.body-header .div-left
+{
+	width:50%;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+.body-header .div-left .image-header img
+{
+	height: 100px;
+	width:100px;
+	border-radius:50%;
+	margin-left: 20px;
+	
+
+
+}
+
+.div-left .heading h1{
+	color:white;
+	margin-left: 16rem;
+}
+
+.body-header .div-right
+{
+	width:50%;
+	display: flex;
+	flex-wrap: wrap;
+
+	flex-direction: row-reverse;
+
+} 
+.body-header .div-right .header-form input
+{
+  border-radius: 4px;
+  background-image: url('https://img.icons8.com/material-outlined/24/000000/search.png');
+  padding: 8px 20px 8px 40px;
+  background-repeat: no-repeat;
+    box-sizing: border-box;
+     border: 2px solid #12193e;
+     margin-top: 30px;
+     margin-right: 30px;
+     background-color: #12193e;
+
+
+}
+.div-right  .header-noti img
+{
+	height:40px;
+	width:50px;
+	border-radius:50%;
+	margin-top:30px;
+	margin-left:5px;
+	margin-right: 30px;
+	
+
+}
+.body-header .div-right .header-user img
+{
+	height:80px;
+	width:80px;
+	border-radius:50%;
+	
+	margin-left:10px;
+	margin-right: 30px;
+
+
+}
+
+
+
+/*main */
+
+
+.body-main
+{
+	width:70%;
+	height:auto;
+	
+	margin-top: 50px;
+
+	display:inline-block;
+
+
+	
+}
+
+.body-main section
+{
+	width:70%;
+	
+	display:flex;
+	flex-direction: column;
+}
+
+
+
+/* section image-grid */
+
+
+
+.body-main .image-grid
+{
+
+width:70%;
+ 
+ height:auto;
+ margin:auto;
+ 
+
+
+}
+
+.body-main .image-grid .row
+{
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	
+} 
+
+
+.body-main .image-grid .row .column img
+{
+
+width:220px;
+height:200px;
+opacity: 0.6;
+transition: 0 0 12px 6px grey;
+
+
+}
+
+.body-main .image-grid .row .column img:hover{
+
+width:250px;
+
+opacity:1;
+box-shadow: 0px 0px 12px 8px gray;
+
+}
+
+
+
+
+/*  section latest */
+
+
+
+
+
+
+.body-main .latest
+{
+	width:70%;
+	margin:auto;
+	height:auto;
+}
+
+
+
+
+.row-latest
+{
+
+	width:100%;
+	height:50vh;
+	margin-top: 50px;
+	
+
+	display:flex;
+	flex-direction: row-reverse;
+	
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+	
+
+}
+
+.columns-latest
+{
+	margin-top:10px;
+
+width:45%;
+height:45%;
+
+float:right;
+overflow: hidden;
+
+}
+
+
+.row-latest .columns-latest img{
+
+	height: 70%;
+	width:45%;
+	float:left;
+	margin-right: 20px;
+	opacity:0.7;
+	
+}
+.row-latest .columns-latest img:hover{
+	opacity:1;
+	box-shadow: 0px 0px 12px 8px gray;
+}
+
+.row-latest .columns-latest p
+{
+	margin-left: 20px;
+
+	color:white;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style The Dropdown Button */
+
+
+
+
+.dropbtn {
+ 
+
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: 120px;
+  color:white;
+}
+
+
+
+
+/* The container <div> - needed to position the dropdown content */
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+   margin-left: 70px;
+}
+
+/* Links inside the dropdown */
+
+
+.dropdown-content a {
+  color: black;
+  padding: 4px 4px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/*  section popular */
+
+
+
+.body-main .popular
+{
+	width:70%;
+	margin:auto;
+	height:auto;
+}
+
+
+.rowP
+{
+	width:100%;
+	height:auto;
+	
+}
+
+.rowP .fig{
+
+	display: inline-block;
+	margin:20px;
+
+}
+.rowP .fig figcaption{
+
+	color:white;
+	margin-left: 0.5rem;
+}
+
+
+.rowP .fig img
+{
+
+width:100px;
+height: 100px;
+border-radius:50%;
+opacity: 0.65;
+
+
+}
+
+.rowP .fig img:hover
+{
+opacity:1;
+transition:0px 0px 12px 6px white;
+box-shadow: 0px 0px 12px 8px gray;
+
+}
+
+
+
+/* section station */
+
+
+
+
+
+.body-main .station
+{
+	width:70%;
+	margin:auto;
+	height:auto;
+
+}
+
+
+
+
+
+.rowS
+{
+	width:100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	
+	justify-content: space-around;
+	 background-color: #12193e;
+}
+
+
+.rowS .container img
+{
+	height:135px;
+	width:135px;
+	border-radius:50%;
+	opacity: 0.6;
+
+
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+ 
+}
+
+.rowS .container img:hover
+{
+	opacity:1;
+
+	box-shadow: 0px 0px 12px 6px gray;
+
+}
+
+
+
+
+
+/* section effect  */
+
+
+
+
+.body-main .effect
+{
+	width:70%;
+	margin:auto;
+	height:auto;
+
+}
+
+
+
+.image-zoom
+{
+
+	height: auto;
+	width: 100%;
+	margin-top: 40px;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+
+.image-zoom .zoom
+{
+	width:30%;
+	height:300px;
+	position:relative;
+	  text-align: center;
+	  overflow: hidden; 
+}
+.image-zoom .zoom img
+{
+
+height:200px;
+width:250px;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(50%);
+  
+}
+
+.centered {
+  position: absolute;
+ top:30%;
+ left:40%;
+ font-size: 1.3rem;
+  color:white;
+  font-weight: bolder;
+ 
+}
+.image-zoom .zoom img:hover{
+  filter: brightness(100%);
+  transform: scale(1.3);
+  box-shadow: 0px 0px 12px 8px gray;
+}
+
+
+
+/* latest english */
+
+
+
+
+.body-main .latest-english
+{
+	width:70%;
+	margin:auto;
+	height:auto;
+
+}
+
+.English
+{
+	width:100%;
+	height: auto;
+}
+
+.English figure
+{
+
+display: inline-block;
+margin:10px;
+
+
+}
+.English figure figcaption
+{
+	color:white;
+}
+.English figure img{
+	width:120px;
+	height: 150px;
+	opacity: 0.7;
+}
+
+.English figure img:hover
+{
+	opacity: 1;
+	box-shadow: 0px 0px 10px 6px lightgray;
+}
+
+
+
+
+
+/* aside   */
+
+
+
+
+
+aside{
+
+
+display: inline-block;
+vertical-align: top;
+margin-top: 50px;
+
+width:23%;
+
+}
+
+.sideBar{
+
+
+	width:100%;
+	margin:auto;
+	
+	
+
+	display: flex;
+	flex-direction: column;
+
+
+
+}
+
+
+.sideB
+{
+	height:100px;
+	width:400px;
+
+	position: relative;
+}
+.sideB img
+{
+	margin-top: 10px;
+	height: 80px;
+	width: 80px;
+	float:left;
+	opacity: 0.9;
+	
+
+}
+
+.sideB img:hover
+{
+	opacity:1;
+	box-shadow: 0 0 8px 2px gray;
+}
+
+.leftP{
+	float:left;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 30px;
+	color:white;
+}
+
+.rightP
+{
+	position:relative;
+	left:30px;
+	color:white;
+}
+
+
+
+.side
+{
+	position:absolute;
+	top:6px;
+	right:10px;
+}
+.side img{
+	height: 50px;
+	width:50px;
+	
+}
+
+
+.dropbtn1 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: 300px;
+
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown1-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+   margin-left: 300px;
+}
+
+.dropdown1-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown1-content a:hover {background-color: #f1f1f1}
+
+.dropdown1:hover .dropdown1-content {
+  display: block;
+}
+
+.dropdown1:hover .dropbtn1 {
+  background-color: #3e8e41;
+}
+
+
+
+
+
+/*  footer    */
+
+
+
+
+
+
+footer
+{
+	width:100%;
+	height:auto;
+	
+}
+
+
+
+.MusicTab
+{
+
+
+	width:100%;
+	height: 200px;
+	background-color:#897c7c;
+	position: relative;
+}
+
+.form-tab{
+
+position: absolute;
+   top:60%;
+	left:25%;
+
+
+
+}
+.listControls
+{
+	position:absolute;
+
+	left:25%;
+}
+
+.listControls ul li
+{
+
+display: inline-block;
+list-style-type: none;
+padding: 20px;
+
+}
+.listControls ul li img
+{
+width: 50px;
+height:50px;
+opacity:0.9;
+
+
+}
+
+.listControls ul li img:hover
+{
+opacity: 1;
+box-shadow: 0 0 8px 2px gray; 
+}
+
+.sideBar3{
+
+	position: absolute;
+	top:10%;
+
+
+
+	width:100%;
+	margin:auto;
+	
+	
+
+	display: flex;
+	flex-direction: column;
+
+
+
+}
+
+
+.sideB3
+{
+	height:100px;
+	width:400px;
+
+	position: relative;
+}
+.sideB3 img
+{
+	margin-top: 10px;
+	margin-left: 20px;
+	height: 80px;
+	width: 80px;
+	float:left;
+	opacity: 0.9;
+	
+
+}
+
+.sideB3 img:hover{
+	opacity: 1;
+box-shadow: 0 0 8px 2px gray; 
+
+}
+
+
+
+.rightP3
+{
+	position:relative;
+	left:30px;
+	color:white;
+}
+
+
+
+.side3
+{
+	position:absolute;
+	top:6px;
+	right:80px;
+}
+.side3 img{
+	height: 50px;
+	width:50px;
+	opacity: 0.9;
+}
+.side3 img:hover{
+	opacity: 1;
+	box-shadow: 0 0 8px 2px gray;
+}
+
+
+.formTab
+{
+
+position:absolute;
+
+top:50%;
+right:10%;
+
+}
+
+.List3
+{
+
+	position: absolute;
+	right:20%;
+	top:35%;
+
+
+}
+.List3 ul li{
+
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px;
+}
+
+.List3 ul li img{
+
+height: 25px;
+width:25px;
+opacity: 0.9;
+
+
+}
+.List3 ul li img
+{
+opacity:1;
+box-shadow: 0 0 8px 3px gray;
+
+}
+
+.p1
+{
+
+	position:absolute;
+	left:23%;
+	top:60%;
+}
+
+.p2
+{
+
+	position:absolute;
+	left:61.5%;
+	top:60%;
+}
+
+
+
+
+
+
+

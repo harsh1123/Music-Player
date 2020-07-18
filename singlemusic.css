@@ -1,0 +1,765 @@
+body{
+
+margin: 0;
+background:#0c1027;
+
+}
+
+
+/*Header*/
+
+
+
+
+.body-header{
+	
+	width:100%;
+	margin:0px;
+	
+	
+	position:static;
+	}
+.body-header .navbar
+{
+	width:100%;
+	display:flex;
+	flex-direction: row;
+	
+
+}
+
+.body-header .div-left
+{
+	width:50%;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+.body-header .div-left .image-header img
+{
+	height: 100px;
+	width:100px;
+	border-radius:50%;
+	margin-left: 20px;
+
+	opacity: 0.9;
+
+
+}
+
+.body-header .div-left .image-header img:hover{
+	opacity: 1;
+	box-shadow: 0 0 8px 2px white;
+}
+
+.div-left .heading h1{
+	color:white;
+	margin-left: 16rem;
+}
+
+.body-header .div-right
+{
+	width:50%;
+	display: flex;
+	flex-wrap: wrap;
+
+	flex-direction: row-reverse;
+
+} 
+.body-header .div-right .header-form input
+{
+  border-radius: 4px;
+  background-image: url('https://img.icons8.com/material-outlined/24/000000/search.png');
+  padding: 8px 20px 8px 40px;
+  background-repeat: no-repeat;
+    box-sizing: border-box;
+     border: 2px solid #12193e;
+     margin-top: 30px;
+     margin-right: 30px;
+     background-color: #12193e;
+
+
+}
+.div-right  .header-noti img
+{
+	height:40px;
+	width:50px;
+	border-radius:50%;
+	margin-top:30px;
+	margin-left:5px;
+	margin-right: 30px;
+
+	opacity: 0.9;
+
+}
+.div-right  .header-noti img:hover
+{
+	opacity: 1;
+	box-shadow: 0 0 8px 2px white;
+}
+
+.body-header .div-right .header-user img
+{
+	height:80px;
+	width:80px;
+	border-radius:50%;
+	
+	margin-left:10px;
+	margin-right: 30px;
+
+	opacity:0.9;
+
+}
+
+.body-header .div-right .header-user img:hover
+{
+	opacity: 1;
+	box-shadow: 0 0 8px 2px white;
+}
+
+
+
+
+
+/*  Main    */
+
+
+
+
+main{
+
+
+	width:70%;
+	height:auto;
+	display: inline-block;
+}
+
+
+
+/* Section   */
+
+section{
+
+	display: flex;
+	direction: column;
+	width:80%;
+	margin:40px;
+	
+
+}
+
+
+
+
+
+/*  Section bigImage  */
+
+
+
+
+
+
+.bigImage
+{
+
+width:80%;
+margin:auto;
+margin-top: 50px;
+
+
+}
+
+.bigImage .row
+{
+
+width:100%;
+height:50vh;
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+
+
+
+}
+.bigImage .row .column1 img{
+
+	width:350px;
+	height: 100%;
+	opacity:0.8;
+
+
+
+}
+
+.bigImage .row .column1 img:hover
+{
+opacity:1;
+box-shadow: 0 0 10px 2px white;
+
+}
+.bigImage .row .column2
+
+{  width: 400px;
+	height: 100%;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	
+}
+
+
+/*   Play Button   */
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #7033c3;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #4127b3;
+  margin-left: 20px;
+  width: 100px;
+}
+
+.button:hover {background-color: red}
+
+.button:active {
+  background-color: blue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+
+/*  Section PlayList  */
+
+
+
+
+
+.playList
+{
+
+width:80%;
+margin:auto;
+
+
+}
+
+
+.sideBar
+{
+
+	width:100%;
+	margin:auto;
+	
+	
+
+	display: flex;
+	flex-direction: column;
+
+
+
+
+}
+
+
+.sideB
+{
+	height:70px;
+	width:100%;
+	margin-top:20px;
+	background-color: #1a1e33;
+
+	position: relative;
+}
+.sideB img
+{
+	margin-top: 10px;
+	height: 60px;
+	width: 60px;
+	float:left;
+
+	opacity: 0.9;
+
+}
+
+.sideB img:hover
+{
+
+	opacity: 1;
+	box-shadow: 0 0 10px 2px white;
+}
+
+.leftP{
+	float:left;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 30px;
+	color:white;
+}
+
+.rightP
+{
+	position:relative;
+	left:60px;
+	color:white;
+}
+
+
+
+.side
+{
+	position:absolute;
+	top:6px;
+	right:10px;
+}
+.side img{
+	height: 50px;
+	width:50px;
+
+}
+
+
+
+
+
+
+
+/*  Aside   */
+
+
+
+
+
+
+aside
+{
+
+width:23%;
+
+display:inline-block;
+vertical-align: top;
+margin-top: 50px;
+
+}
+#demo
+{
+
+margin-left: 100px;
+
+}
+
+
+
+
+
+/* Div row-latest  */
+
+
+
+
+
+
+
+.row-latest
+{
+
+	width:100%;
+	height:auto;
+	margin-top: 50px;
+	
+
+	display:flex;
+	flex-direction: column;
+	
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+	
+
+}
+
+.columns-latest
+{
+	margin-top:10px;
+
+width:100%;
+height:120px;
+
+float:right;
+overflow: hidden;
+
+
+}
+
+
+.row-latest .columns-latest img{
+
+	height:100px ;
+	width:100px;
+	float:left;
+	margin-right: 20px;
+	opacity:0.7;
+}
+.row-latest .columns-latest img:hover{
+	opacity:1;
+
+	box-shadow: 0 0 10px 2px white;
+}
+
+.row-latest .columns-latest p
+{
+	margin-left: 20px;
+
+	color:white;
+
+
+}
+
+
+
+
+
+
+/*  DropDown on coursel  */
+
+
+
+
+
+/* Style The Dropdown Button */
+
+
+.dropbtn {
+ 
+
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: 150px;
+  color:white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+   margin-left: 70px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 4px 4px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+/* Recently Played Aside Section  */
+
+
+
+
+
+
+.sideBar2
+{
+
+	width:100%;
+	margin:auto;
+
+
+	
+	
+
+	display: flex;
+	flex-direction: column;
+
+
+
+}
+
+
+.sideB2
+{
+	height:100px;
+	width:400px;
+	margin-top: 20px;
+
+
+	position: relative;
+}
+.sideB2 img
+{
+	margin-top: 10px;
+	height: 80px;
+	width: 80px;
+	float:left;
+
+}
+
+.leftP2{
+	float:left;
+	margin-right: 20px;
+	
+	margin-top: 30px;
+	color:white;
+}
+
+.rightP2
+{
+	position:relative;
+	left:30px;
+	color:white;
+}
+
+
+
+.side2
+{
+	position:absolute;
+	top:6px;
+	right:10px;
+}
+.side2 img{
+	height: 40px;
+	width:40px;
+}
+
+
+
+
+/* Footer   */
+
+
+
+footer
+{
+	width:100%;
+	height:auto;
+	
+}
+
+
+/*  Prototype music Player  */
+
+
+
+.MusicTab
+{
+
+
+	width:100%;
+	height: 200px;
+	background-color:#897c7c;
+	position: relative;
+}
+
+.form-tab{
+
+position: absolute;
+top:60%;
+	left:25%;
+
+
+
+}
+.listControls
+{
+	position:absolute;
+
+	left:25%;
+}
+
+.listControls ul li
+{
+
+display: inline-block;
+list-style-type: none;
+padding: 20px;
+
+}
+.listControls ul li img
+{
+width: 50px;
+height:50px;
+
+opacity:0.9;
+
+}
+
+.listControls ul li img:hover
+{
+	opacity:1;
+	box-shadow: 0 0 8px 6px white;
+}
+
+
+
+.sideBar3{
+
+	position: absolute;
+	top:10%;
+
+
+
+	width:100%;
+	margin:auto;
+	
+	
+
+	display: flex;
+	flex-direction: column;
+
+
+
+}
+
+
+.sideB3
+{
+	height:100px;
+	width:400px;
+
+	position: relative;
+}
+.sideB3 img
+{
+	margin-top: 10px;
+	margin-left: 20px;
+	height: 80px;
+	width: 80px;
+	float:left;
+
+	opacity: 0.9;
+
+}
+
+.sideB3 img:hover
+{
+	opacity: 1;
+	box-shadow: 0 0 8px 6px white;
+}
+
+
+
+.rightP3
+{
+	position:relative;
+	left:30px;
+	color:white;
+}
+
+
+
+.side3
+{
+	position:absolute;
+	top:6px;
+	right:80px;
+}
+
+
+.side3 img{
+	height: 50px;
+	width:50px;
+}
+
+
+.formTab
+{
+
+position:absolute;
+
+top:50%;
+right:10%;
+
+}
+
+.List3
+{
+
+	position: absolute;
+	right:20%;
+	top:35%;
+
+
+}
+.List3 ul li{
+
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px;
+}
+
+.List3 ul li img{
+
+height: 25px;
+width:25px;
+opacity: 0.9;
+
+}
+
+.List3 ul li img:hover
+{
+opacity: 1;
+box-shadow: 0 0 8px 2px white;
+
+}
+
+.p1
+{
+
+	position:absolute;
+	left:23%;
+	top:60%;
+}
+
+.p2
+{
+
+	position:absolute;
+	left:61.5%;
+	top:60%;
+}
+
+
+
+
+
+
+
+
